@@ -6,7 +6,11 @@ As of now, the software allows users to upload their bank statements. It then pu
 
 To use our software is simple:
 
-- Step 1: 
+- Step 1: Download all of the following files and place them in the same directory: Project_Functions.py, User_Functions.py, sym_encrypt.py, First_Time_User.ipynb, and Returning_User.ipynb.
+  
+- Step 2: Run the code in First_Time_User.ipynb, following the printed instructions in order to upload your bank statements.
+  
+- Step 3: Run the code in Returning_User.ipynb,following the printed instructions in order to upload your current bank statement. Select the option that best meets your need. Select D to terminate the program. 
   
 Main Elements: 
 
