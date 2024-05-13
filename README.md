@@ -8,17 +8,19 @@ To use our software is simple:
   Step 1: 
   
 Main Elements: 
-  Project_Functions.py: Contains functions that upload and congregate user data,     create graphs, and create the Budget.txt budget, where the budget information is   stored.
+  Project_Functions.py: Contains functions that upload and congregate user data, create graphs, and create the Budget.txt budget, where the budget information is stored.
   
-  User_Functions.py: Contains user experience functions. These provide    instructions to users and allow them to input the name of the bank statements in   their directory. 
+  User_Functions.py: Contains user experience functions. These provide instructions to users and allow them to input the name of the bank statements in their directory. 
   
-  First_Time_User.ipynb: Imports Project_Functions and User_Functions. Welcome the user, prompts them to upload their 
-  Returning_User.ipynb
+  First_Time_User.ipynb: This file welcomes the first-time user, instructs them to download their bank statements in .csv form and place them in the same directory (folder) as this software and to input the names of these .csv files in chronolical order to create a long-term file. It also Project_Functions and User_Functions in order to function. 
+
+  Returning_User.ipynb: This file welcomes the returning user and instructs them to upload their most recent bank statement. It them offers the user a choice between viewing graphs that summarize their spending, create a budget, or compare their actual spending with their budgeted spending. 
+
 
 
 
 We encrypt the file that is created by our software. However, our software requires the user to download their bank statements onto their computer. While we do not possess any of the user's data, security risks are present whenever one downloads sensitive data to their computer. For example, someone with malicious intent could gain remote access of the users computer and gain access to their files. To mitigate this risk, it is important to use computers with advanced malware protection systems, such as Apple computers.
 
-Additional work that could improve this project is making it more user-friendly and visually appealing. 
+Additional work that could improve this project is making it more user-friendly and visually appealing. In addition, this software only works with Chase bank statements. Additional work could make the software compatible with a wider range of bank statements. 
 
 
