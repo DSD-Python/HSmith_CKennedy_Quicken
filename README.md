@@ -9,13 +9,13 @@ To use our software is simple:
   
 Main Elements: 
 
-  Project_Functions.py: Contains functions that upload and congregate user data, create graphs, and create the Budget.txt budget, where the budget information is stored.
+- Project_Functions.py: Contains functions that upload and congregate user data, create graphs, and create the Budget.txt budget, where the budget information is stored.
   
-  User_Functions.py: Contains user experience functions. These provide instructions to users and allow them to input the name of the bank statements in their directory. 
+- User_Functions.py: Contains user experience functions. These provide instructions to users and allow them to input the name of the bank statements in their directory. 
   
-  First_Time_User.ipynb: This file welcomes the first-time user, instructs them to download their bank statements in .csv form and place them in the same directory (folder) as this software and to input the names of these .csv files in chronolical order to create a long-term file. It also Project_Functions and User_Functions in order to function. 
+- First_Time_User.ipynb: This file welcomes the first-time user, instructs them to download their bank statements in .csv form and place them in the same directory (folder) as this software and to input the names of these .csv files in chronolical order to create a long-term file. It also Project_Functions and User_Functions in order to function. 
 
-  Returning_User.ipynb: This file welcomes the returning user and instructs them to upload their most recent bank statement. It them offers the user a choice between viewing graphs that summarize their spending, create a budget, or compare their actual spending with their budgeted spending. 
+- Returning_User.ipynb: This file welcomes the returning user and instructs them to upload their most recent bank statement. It them offers the user a choice between viewing graphs that summarize their spending, create a budget, or compare their actual spending with their budgeted spending. 
 
 
 
