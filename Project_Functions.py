@@ -228,12 +228,9 @@ def update_long_term_file(long_term_payment):
     with open('credit_payment_history.pkl','wb') as f:
         pickle.dump(long_term_payment, f)
     f.close()
-    P = Path('.') / 'credit_payment_history.pkl'
+    P = Path('.') / 'credit_payment_history.pkl.secrett'
     se.encrypt(P)
     os.remove('credit_payment_history.pkl.secret')
-    os.remove('credit_payment_history.pkl')
-
-
 
 
 def make_dow_bar(dow_dict,long_dow_dict,length):

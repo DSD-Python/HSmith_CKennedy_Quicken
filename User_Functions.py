@@ -8,6 +8,7 @@ import os.path
 import Project_Functions as pf
 import sym_encrypt as se
 from pathlib import Path
+import os
 
 def user_input():
     """Allows the user to input the name of a statement file and converts the data to a list"""
@@ -112,6 +113,10 @@ def Returning_User(long_term_file, new_data):
                 print("\nUpdate Successful\n")
         elif Choice.upper() == "Q":
             print("\nThank you for using our service!")
+            if os.path.isfile("credit_payment_history.pkl.secret"):
+                P = Path('.') / 'credit_payment_history.pkl.secret'
+                se.encrypt(P)
+                os.remove('credit_payment_history.pkl.secret')
             return
         else:
             print("Not a Valid Choice. Please Try Again\n")
