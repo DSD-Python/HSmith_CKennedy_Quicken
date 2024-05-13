@@ -8,6 +8,7 @@ To use our software is simple:
   Step 1: 
   
 Main Elements: 
+
   Project_Functions.py: Contains functions that upload and congregate user data, create graphs, and create the Budget.txt budget, where the budget information is stored.
   
   User_Functions.py: Contains user experience functions. These provide instructions to users and allow them to input the name of the bank statements in their directory. 
