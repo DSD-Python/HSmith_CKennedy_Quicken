@@ -1,5 +1,6 @@
 <h1>Holly Smith and Chris Kennedy Quicken Credit Info</h1>
 
+**Goal and Intended User**
 The goal for this project is to provide users with the ability to analyze the financial data of their bank statements for the purposes of budgeting and financial planning. The target user is anyone who would like to make informed financial decisions by analyzing their spending and earning patterns. 
 
 As of now, the software allows users to upload their bank statements. It then pulls out certain data from these statements including the users' categories of spending and earning, the specific places where they have spent or earned money, and the dates of these transactions. It then produces several graphs which the user may find helpful for analysis of their spending. Users also have the option of creating a budget. After creating a budget, users may compare their actual spending to their budgeted spending.
