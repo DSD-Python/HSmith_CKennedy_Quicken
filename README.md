@@ -18,7 +18,7 @@ To use our software is simple:
   
 - Step 3: Run the code in First_Time_User.ipynb, following the printed instructions in order to upload your bank statements. These instructions will prompt you to input the names of your bank statements, omitting the file extension (.csv) from oldest to newest one at a time. 
   
-- Step 4: Run the code in Returning_User.ipynb,following the printed instructions in order to upload your current bank statement. Select the option that best meets your need. Select D to terminate the program. 
+- Step 4: Run the code in the first cell of Returning_User.ipynb,following the printed instructions in order to ensure you have correctly followed Step 3 to create a long-term file and upload your current bank statement. Then run the second cell in this file. Selct A to view graphs that summarize your spending, select B to create a budget, select C to compare your budget to your spending or select D to add the current month's data to your long-term file. When you are finished analyzing your spending, Select Q to terminate the program. 
   
 **Main Elements:**
 
