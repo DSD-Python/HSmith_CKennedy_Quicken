@@ -18,7 +18,7 @@ To use our software is simple:
   
 - Step 3: Run the code in Returning_User.ipynb,following the printed instructions in order to upload your current bank statement. Select the option that best meets your need. Select D to terminate the program. 
   
-*Main Elements:*
+**Main Elements:**
 
 - Project_Functions.py: Contains functions that upload and congregate user data, create graphs, and create the Budget.txt budget, where the budget information is stored.
   
