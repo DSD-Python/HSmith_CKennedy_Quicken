@@ -9,6 +9,7 @@ The goal for this project is to provide users with the ability to analyze the fi
 As of now, the software allows users to upload their bank statements. It then pulls out certain data from these statements including the users' categories of spending and earning, the specific places where they have spent or earned money, and the dates of these transactions. It then produces several graphs which the user may find helpful for analysis of their spending. Users also have the option of creating a budget. After creating a budget, users may compare their actual spending to their budgeted spending.
 
 **How To**
+
 To use our software is simple:
 
 - Step 1: Download all of the following files and place them in the same directory: Project_Functions.py, User_Functions.py, sym_encrypt.py, First_Time_User.ipynb, and Returning_User.ipynb.
