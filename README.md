@@ -1,4 +1,4 @@
-#Holly Smith and Chris Kennedy Quicken Credit Info
+<h1>Holly Smith and Chris Kennedy Quicken Credit Info</h1>
 
 The goal for this project is to provide users with the ability to analyze the financial data of their bank statements for the purposes of budgeting and financial planning. The target user is anyone who would like to make informed financial decisions by analyzing their spending and earning patterns. 
 
