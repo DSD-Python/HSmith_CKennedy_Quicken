@@ -32,8 +32,11 @@ To use our software is simple:
 
 
 
+**Security Concerns**
 
 We encrypt the file that is created by our software. However, our software requires the user to download their bank statements onto their computer. While we do not possess any of the user's data, security risks are present whenever one downloads sensitive data to their computer. For example, someone with malicious intent could gain remote access of the users computer and gain access to their files. To mitigate this risk, it is important to use computers with advanced malware protection systems, such as Apple computers.
+
+**Additional Work**
 
 Additional work that could improve this project is making it more user-friendly and visually appealing. In addition, this software only works with Chase bank statements. Additional work could make the software compatible with a wider range of bank statements. 
 
