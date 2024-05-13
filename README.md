@@ -5,17 +5,20 @@ The goal for this project is to provide users with the ability to analyze the fi
 As of now, the software allows users to upload their bank statements. It then pulls out certain data from these statements including the users' categories of spending and earning, the specific places where they have spent or earned money, and the dates of these transactions. It then produces several graphs which the user may find helpful for analysis of their spending. Users also have the option of creating a budget. After creating a budget, users may compare their actual spending to their budgeted spending.
 
 To use our software is simple:
-  Step 1: 
+
+- Step 1: 
   
 Main Elements: 
 
 - Project_Functions.py: Contains functions that upload and congregate user data, create graphs, and create the Budget.txt budget, where the budget information is stored.
   
-- User_Functions.py: Contains user experience functions. These provide instructions to users and allow them to input the name of the bank statements in their directory. 
-  
-- First_Time_User.ipynb: This file welcomes the first-time user, instructs them to download their bank statements in .csv form and place them in the same directory (folder) as this software and to input the names of these .csv files in chronolical order to create a long-term file. It also Project_Functions and User_Functions in order to function. 
+- User_Functions.py: Contains user experience functions. These provide instructions to users and allow them to input the name of the bank statements in their directory.
 
-- Returning_User.ipynb: This file welcomes the returning user and instructs them to upload their most recent bank statement. It them offers the user a choice between viewing graphs that summarize their spending, create a budget, or compare their actual spending with their budgeted spending. 
+- sym_encrypt.py: Contains functions that allow for encryption of the user's long-term transaction file. 
+  
+- First_Time_User.ipynb: This file welcomes the first-time user, instructs them to download their bank statements in .csv form and place them in the same directory (folder) as this software and to input the names of these .csv files in chronolical order to create a long-term file. It also imports Project_Functions.py, sym_encrypt.py, and User_Functions in order to function. 
+
+- Returning_User.ipynb: This file welcomes the returning user and instructs them to upload their most recent bank statement. It them offers the user a choice between viewing graphs that summarize their spending, create a budget, or compare their actual spending with their budgeted spending. It also imports Project_Functions.py, sym_encrypt.py, and User_Functions in order to function. 
 
 
 
